@@ -1,0 +1,16 @@
+{application, deribit_api,
+ [{description, "An OTP library"},
+  {vsn, "1.0.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib,
+    gun
+   ]},
+  {env,[]},
+  {modules, [deribit_api]},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
